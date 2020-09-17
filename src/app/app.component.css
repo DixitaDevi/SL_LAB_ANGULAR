@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", arial, sans-serif;
+  color: #222
+}
+
+#login-container {
+  height: 500px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background: antiquewhite;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.profile-img {
+    height: 100px;
+    width: 100px;
+    background: url('https://cdn.pixabay.com/photo/2020/08/05/22/55/woman-5466608__340.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+h1 {
+    font-family: 'Sriracha', arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color:  #b17600;
+}
+.description{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7d7fa3;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    padding: 0 20px;
+    margin-left: -20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
